@@ -1,17 +1,18 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(94, 94, 222);
+    background-color: rgb(69, 69, 71);
     font: normal 15pt Arial;
 }
 
 header {
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 5px black;
 }
 
 section {
-    background: white;
+    background: gray;
     border-radius: 20px;
     padding: 15px;
     width: 500px;
@@ -23,4 +24,18 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px black;
+}
+
+input {
+    background-color: lightgray;
+}
+
+input#button:hover {
+    background-color: rgb(0, 187, 0);
+}
+
+select {
+    background-color: lightgray;
 }
